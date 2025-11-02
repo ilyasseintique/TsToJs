@@ -1,5 +1,5 @@
 import React from 'react'; 
-// we want to add type safety to props
+we want to add type safety to props
 type obj = {
   name : string;
 }
@@ -7,6 +7,7 @@ const Greeting : React.FC<obj>  = ({ name }) => {
 return <div>Hello, {name}!</div>;
  };
  export default Greeting;
+ 
  ------------------------------------------------
  import React, { Component } from 'react';
 
